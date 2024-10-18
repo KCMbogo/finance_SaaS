@@ -4,7 +4,7 @@ import { handle } from 'hono/vercel';
 import { zValidator } from '@hono/zod-validator';
 import { clerkMiddleware } from '@hono/clerk-auth';
 
-export const runtime = 'edge'
+export const runtime = 'edge';
 
 const app = new Hono().basePath('/api')
 
